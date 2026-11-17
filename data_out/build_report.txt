@@ -1,0 +1,54 @@
+{
+  "train": {
+    "rows_after_dedup": 1268922,
+    "rows_dropped_as_dup": 131077,
+    "dup_rate_pct": 9.36,
+    "label_counts": {
+      "Benign": 228250,
+      "Recon": 226951,
+      "Mirai": 226527,
+      "Spoofing": 215383,
+      "DDoS": 181177,
+      "DoS": 164150,
+      "Web": 17352,
+      "BruteForce": 9132
+    }
+  },
+  "val": {
+    "rows_after_dedup": 281382,
+    "rows_dropped_as_dup": 18615,
+    "dup_rate_pct": 6.21,
+    "label_counts": {
+      "Benign": 49029,
+      "Mirai": 48903,
+      "Recon": 48750,
+      "Spoofing": 45354,
+      "DDoS": 44923,
+      "DoS": 38752,
+      "Web": 3713,
+      "BruteForce": 1958
+    }
+  },
+  "test": {
+    "rows_after_dedup": 286197,
+    "rows_dropped_as_dup": 13800,
+    "dup_rate_pct": 4.6,
+    "label_counts": {
+      "Benign": 49031,
+      "Mirai": 48906,
+      "Recon": 48880,
+      "Spoofing": 46218,
+      "DDoS": 46024,
+      "DoS": 41531,
+      "Web": 3649,
+      "BruteForce": 1958
+    }
+  },
+  "leak_check": "OK",
+  "dead_columns": [],
+  "remaining_nan": 0,
+  "dropped_columns": [
+    "Tot size",
+    "Tot sum"
+  ]
+}

@@ -1,0 +1,6 @@
+class,f1_hardvote
+Benign,0.6811
+Flood,0.9991
+Mirai,0.9984
+Probe,0.7677
+Spoofing,0.6322

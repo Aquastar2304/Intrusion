@@ -1,0 +1,20 @@
+# Python 3.13. Install with:  pip install -r requirements.txt
+pandas==3.0.3
+numpy==2.5.1
+pyarrow==25.0.1
+scikit-learn==1.9.0
+joblib==1.5.3
+emlearn==0.23.2
+pyserial==3.5
+
+# only for step 3 (baseline comparison)
+xgboost==3.4.1
+torch==2.13.0
+
+# only for regenerating the presentation images
+matplotlib==3.11.1
+pillow==12.3.0
+
+# Not Python, also needed:
+#   gcc (MSYS2 ucrt64)                      - step 6, desktop C check
+#   Arduino IDE 2.x + "esp32" board package - steps 7 and flashing the board

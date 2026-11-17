@@ -1,0 +1,13 @@
+{
+  "model": "rf5_n30_d10_f25",
+  "board": "ESP32 Dev Module (ESP32-WROOM-32)",
+  "fqbn": "esp32:esp32:esp32",
+  "sketch_flash_bytes": 520204,
+  "stub_sketch_flash_bytes": 280232,
+  "model_only_flash_bytes": 239972,
+  "sketch_static_ram_bytes": 23156,
+  "stub_sketch_static_ram_bytes": 23156,
+  "model_only_static_ram_bytes": 0,
+  "app_partition_bytes": 1310720,
+  "sketch_pct_of_partition": 39.7
+}

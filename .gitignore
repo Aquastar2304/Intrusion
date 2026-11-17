@@ -1,0 +1,23 @@
+# Raw dataset: 8.4 GB, owned by the Canadian Institute for Cybersecurity. See README to download.
+Dataset/
+
+# Cleaned splits are rebuilt by scripts/02_build_dataset.py (small reports are kept)
+data_out/*.parquet
+
+# 915 MB baseline forest, over GitHub's 100 MB limit. Rebuilt by scripts/03_train_baselines.py
+models/baselines/rf.joblib
+
+# Earlier experiments, kept locally only
+_archive/
+
+# Build output and caches
+firmware/desktop_test/build/
+__pycache__/
+*.pyc
+node_modules/
+
+# Office lock files
+~$*
+
+# The presentation deck has student names and roll numbers; kept local only
+*.pptx

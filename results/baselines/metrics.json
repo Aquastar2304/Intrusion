@@ -1,0 +1,76 @@
+[
+  {
+    "model": "rf",
+    "accuracy": 0.7713,
+    "macro_f1": 0.6722,
+    "weighted_f1": 0.7677,
+    "per_class_f1": {
+      "Benign": 0.7263,
+      "BruteForce": 0.5183,
+      "DDoS": 0.7644,
+      "DoS": 0.7494,
+      "Mirai": 0.9988,
+      "Recon": 0.7679,
+      "Spoofing": 0.6413,
+      "Web": 0.2109
+    },
+    "train_sec": 71.2,
+    "size_mb": 958.441
+  },
+  {
+    "model": "xgb",
+    "accuracy": 0.7513,
+    "macro_f1": 0.6348,
+    "weighted_f1": 0.7608,
+    "per_class_f1": {
+      "Benign": 0.7233,
+      "BruteForce": 0.2844,
+      "DDoS": 0.7654,
+      "DoS": 0.7568,
+      "Mirai": 0.9993,
+      "Recon": 0.7326,
+      "Spoofing": 0.6434,
+      "Web": 0.1734
+    },
+    "train_sec": 133.8,
+    "size_mb": 47.699
+  },
+  {
+    "model": "mlp",
+    "accuracy": 0.7113,
+    "macro_f1": 0.5965,
+    "weighted_f1": 0.7326,
+    "per_class_f1": {
+      "Benign": 0.6598,
+      "BruteForce": 0.1974,
+      "DDoS": 0.7583,
+      "DoS": 0.7677,
+      "Mirai": 0.9978,
+      "Recon": 0.6695,
+      "Spoofing": 0.6108,
+      "Web": 0.111
+    },
+    "train_sec": 194.3,
+    "size_mb": 0.057,
+    "device": "cuda"
+  },
+  {
+    "model": "cnn",
+    "accuracy": 0.701,
+    "macro_f1": 0.5933,
+    "weighted_f1": 0.7275,
+    "per_class_f1": {
+      "Benign": 0.6446,
+      "BruteForce": 0.2111,
+      "DDoS": 0.7728,
+      "DoS": 0.7771,
+      "Mirai": 0.9982,
+      "Recon": 0.6625,
+      "Spoofing": 0.5795,
+      "Web": 0.1003
+    },
+    "train_sec": 211.8,
+    "size_mb": 0.162,
+    "device": "cuda"
+  }
+]
